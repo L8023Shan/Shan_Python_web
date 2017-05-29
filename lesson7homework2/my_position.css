@@ -1,0 +1,67 @@
+.my_brick {
+    box-sizing: border-box;
+    background: url('images/brick.jpg');
+    background-repeat: repeat;
+    background-size: 64px;
+    position: relative;
+    width: 100%;
+    height: 384px;
+}
+
+
+.my_cobble_stone{
+    box-sizing: border-box;
+    background-image: url('images/cobble_stone.png');
+    background-repeat: repeat;
+    background-size: 64px;
+    position: relative;
+    width: 256px;
+    height: 192px;
+    left: 50%;
+    top: 0%;
+    transform: translate(-50%,0%);
+}
+
+.my_stonebrick{
+    box-sizing: border-box;
+    background-image: url('images/stonebrick.png');
+    background-repeat: repeat;
+    background-size: 64px;
+    position: relative;
+    width: 256px;
+    height: 192px;
+    top: 192px;
+}
+
+.my_inner_cobble_stone{
+    box-sizing: border-box;
+    background-image: url('images/inner_cobble_stone.png');
+    background-repeat: repeat;
+    background-size: 64px;
+    position: relative;
+    width: 128px;
+    height: 128px;
+    left: 64px;
+    top: 64px;
+}
+
+.my_har{
+    box-sizing: border-box;
+    background-image: url('images/har.gif');
+    background-repeat: repeat;
+    background-size: 128px;
+    position: relative;
+    width: 128px;
+    height: 128px;
+}
+
+.my_Iron_bars{
+    box-sizing: border-box;
+    background-image: url('images/Iron_bars.png');
+    background-repeat: repeat;
+    background-size: 64px;
+    position: relative;
+    width: 128px;
+    height: 64px;
+    top: 64px;
+}
