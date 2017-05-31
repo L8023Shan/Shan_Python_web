@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <title>MINs</title>
+        <link rel="stylesheet" href="css/semantic.css" media="screen" title="no title" charset="utf-8">
+        <link href="https://fonts.googleapis.com/css?family=Oswald|Raleway" rel="stylesheet">
+    </head>
+
+    <style media="screen">
+        body {
+            background-color: rgb(245, 245, 245);
+            font-family: 'Raleway', sans-serif;
+        }
+
+        .ui.inverted.container.segment {
+            width: 400px;
+            background-color: rgb(235, 235, 235);
+            padding: 2px 2px 2px 2px;
+            margin-top: 100px;
+        }
+
+        .ui.basic.segment.container.content {
+            width: 850px;
+        }
+
+    </style>
+
+
+    <body>
+        <!-- 导航栏 菜单 -->
+        <!-- Fixed:A menu can be fixed to a side of its context -->
+        <!-- Borderless:A menu item or menu can have no borders -->
+        <!-- Inverted:A menu may have its colors inverted to show greater contrast -->
+        <div class="ui inverted red fixed borderless menu" style="background-color: #ff5144;">
+            <!-- 10minlogo -->
+            <!-- Item:An item view presents large collections of site content for display  -->
+            <div class="item">
+                <div class="ui image">
+                    <img src="images/tenlogo.png" alt="">
+                </div>
+            </div>
+            <!-- Menu:A menu displays grouped navigation actions  -->
+            <div class="right menu">
+                <!-- 侯爵老师头像 -->
+                <div class="item">
+                    <div class="ui mini circular image">
+                        <img src="images/hou30.jpg" alt="">
+                    </div>
+                    <span>admin</span>
+                </div>
+                <!-- 登录按钮 -->
+                <!-- Button:A button indicates a possible user action  -->
+                <div class="item">
+                    <button type="submit" name="button" class="ui inverted circular button">Logout</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- 导航栏 -->
+        <!-- Container：A container limits content to a maximum width  -->
+        <!-- Segment：A segment is used to create a grouping of related content  -->
+        <div class="ui inverted container segment">
+            <div class="ui three borderless item menu" style="border: none;box-shadow:none">
+                <a class="item" style="background-color: rgb(235, 235, 235);color: rgb(187, 187, 187);">
+                    All
+                </a>
+                <a class="item" style="background-color: rgb(235, 235, 235);color: rgb(187, 187, 187);">
+                    New
+                </a>
+                <a class="active item" href="#list/editors" style="background-color: rgb(255, 255, 255);color: rgb(15, 15, 15);">Editor's</a>
+            </div>
+        </div>
+
+        <!-- 网格Grid：A grid is used to harmonize negative space in a layout  -->
+        <!-- 卡片Card:A card displays site content in a manner similar to a playing card  -->
+        <!-- 内容 -->
+        <div class="ui basic content container segment">
+            <div class="ui three column grid">
+                <!-- 第一张图片 -->
+                <div class="column">
+
+                    <!-- 图片 -->
+                    <div class="ui fluid card">
+                        <div class="image">
+                            <img src="images/img1.jpg" alt="" style="height:200px;object-fit:cover;">
+                        </div>
+                    </div>
+
+                    <!-- 文字 -->
+                    <div class="title header" href="/detail/215" style="font-family: 'Raleway', sans-serif!important;    font-size:18px!important;">Ut unde numquam non nisi.</div>
+                    <i class="icon grey unhide"></i>
+                    <span style="color:#bbbbbb">10K</span>
+                    <span class="" style="color:rgb(226, 226, 226)">|</span>
+                    <i class="icon grey checkmark"></i>
+                    <span style="color:#bbbbbb"> 10 people got it</span>
+
+                </div>
+
+                <!-- 第二张图片 -->
+                <div class="column">
+
+                    <!-- 图片 -->
+                    <div class="ui fluid card">
+                        <div class="image">
+                            <img src="images/img2.jpg" style="height:200px;object-fit: cover;">
+                        </div>
+                    </div>
+
+                    <!-- 文字 -->
+                    <div class="title header" href="/detail/215" style="font-family: 'Raleway', sans-serif!important;    font-size:18px!important;">Nesciunt eligendi qui et si...</div>
+                    <i class="icon grey unhide"></i>
+                    <span style="color:#bbbbbb">10K</span>
+                    <span class="" style="color:rgb(226, 226, 226)">|</span>
+                    <i class="icon grey checkmark"></i>
+                    <span style="color:#bbbbbb"> 10 people got it</span>
+
+                </div>
+
+                <!-- 第三张图片 -->
+                <div class="column">
+
+                    <!-- 图片 -->
+                    <div class="ui fluid card">
+                        <div class="image">
+                            <img src="images/img3.jpg" style="height:200px;object-fit: cover;">
+                        </div>
+                    </div>
+
+                    <!-- 文字 -->
+                    <div class="title header" href="/detail/215" style="font-family: 'Raleway', sans-serif!important;    font-size:18px!important;">Quo accusantium commodi in ...</div>
+                    <i class="icon grey unhide"></i>
+                    <span style="color:#bbbbbb">10K</span>
+                    <span class="" style="color:rgb(226, 226, 226)">|</span>
+                    <i class="icon grey checkmark"></i>
+                    <span style="color:#bbbbbb"> 10 people got it</span>
+
+                </div>
+
+                <!-- 第四张图片 -->
+                <div class="column">
+
+                    <!-- 图片 -->
+                    <div class="ui fluid card">
+                        <div class="image">
+                            <img src="images/img4.jpg" alt="" style="height:200px;object-fit:cover;">
+                        </div>
+                    </div>
+
+                    <!-- 文字 -->
+                    <div class="title header" href="/detail/215" style="font-family: 'Raleway', sans-serif!important;    font-size:18px!important;">Deleniti laudantium cum occ...</div>
+                    <i class="icon grey unhide"></i>
+                    <span style="color:#bbbbbb">10K</span>
+                    <span class="" style="color:rgb(226, 226, 226)">|</span>
+                    <i class="icon grey checkmark"></i>
+                    <span style="color:#bbbbbb"> 10 people got it</span>
+
+                </div>
+
+                <!-- 第五张图片 -->
+                <div class="column">
+
+                    <!-- 图片 -->
+                    <div class="ui fluid card">
+                        <div class="image">
+                            <img src="images/img5.jpg" style="height:200px;object-fit: cover;">
+                        </div>
+                    </div>
+
+                    <!-- 文字 -->
+                    <div class="title header" href="/detail/215" style="font-family: 'Raleway', sans-serif!important;    font-size:18px!important;">Aliquid impedit et iure fug...</div>
+                    <i class="icon grey unhide"></i>
+                    <span style="color:#bbbbbb">10K</span>
+                    <span class="" style="color:rgb(226, 226, 226)">|</span>
+                    <i class="icon grey checkmark"></i>
+                    <span style="color:#bbbbbb"> 10 people got it</span>
+
+                </div>
+
+                <!-- 第6张图片 -->
+                <div class="column">
+
+                    <!-- 图片 -->
+                    <div class="ui fluid card">
+                        <div class="image">
+                            <img src="images/img6.jpg" style="height:200px;object-fit: cover;">
+                        </div>
+                    </div>
+
+                    <!-- 文字 -->
+                    <div class="title header" href="/detail/215" style="font-family: 'Raleway', sans-serif!important;    font-size:18px!important;">Corporis qui odio perferend...</div>
+                    <i class="icon grey unhide"></i>
+                    <span style="color:#bbbbbb">10K</span>
+                    <span class="" style="color:rgb(226, 226, 226)">|</span>
+                    <i class="icon grey checkmark"></i>
+                    <span style="color:#bbbbbb"> 10 people got it</span>
+
+                </div>
+
+                <!-- 第7张图片 -->
+                <div class="column">
+
+                    <!-- 图片 -->
+                    <div class="ui fluid card">
+                        <div class="image">
+                            <img src="images/img7.jpg" alt="" style="height:200px;object-fit:cover;">
+                        </div>
+                    </div>
+
+                    <!-- 文字 -->
+                    <div class="title header" href="/detail/215" style="font-family: 'Raleway', sans-serif!important;    font-size:18px!important;">Molestiae cupiditate et ut ...</div>
+                    <i class="icon grey unhide"></i>
+                    <span style="color:#bbbbbb">10K</span>
+                    <span class="" style="color:rgb(226, 226, 226)">|</span>
+                    <i class="icon grey checkmark"></i>
+                    <span style="color:#bbbbbb"> 10 people got it</span>
+
+                </div>
+
+                <!-- 第8张图片 -->
+                <div class="column">
+
+                    <!-- 图片 -->
+                    <div class="ui fluid card">
+                        <div class="image">
+                            <img src="images/img8.jpg" style="height:200px;object-fit: cover;">
+                        </div>
+                    </div>
+
+                    <!-- 文字 -->
+                    <div class="title header" href="/detail/215" style="font-family: 'Raleway', sans-serif!important;    font-size:18px!important;">Rem accusamus dicta repudia...</div>
+                    <i class="icon grey unhide"></i>
+                    <span style="color:#bbbbbb">10K</span>
+                    <span class="" style="color:rgb(226, 226, 226)">|</span>
+                    <i class="icon grey checkmark"></i>
+                    <span style="color:#bbbbbb"> 10 people got it</span>
+
+                </div>
+
+                <!-- 第9张图片 -->
+                <div class="column">
+
+                    <!-- 图片 -->
+                    <div class="ui fluid card">
+                        <div class="image">
+                            <img src="images/img9.jpg" style="height:200px;object-fit: cover;">
+                        </div>
+                    </div>
+
+                    <!-- 文字 -->
+                    <div class="title header" href="/detail/215" style="font-family: 'Raleway', sans-serif!important;    font-size:18px!important;">Ad et voluptatibus qui. Nih...</div>
+                    <i class="icon grey unhide"></i>
+                    <span style="color:#bbbbbb">10K</span>
+                    <span class="" style="color:rgb(226, 226, 226)">|</span>
+                    <i class="icon grey checkmark"></i>
+                    <span style="color:#bbbbbb"> 10 people got it</span>
+
+                </div>
+
+            </div>
+        </div>
+
+        <!-- 分页Pagination:A pagination menu is specially formatted to present links to pages of content -->
+        <!-- 翻页 -->
+        <div class="ui center aligned vertical very padded container segment">
+            <div class="ui pagination menu">
+                <a href="#" class="item">
+                    <i class="red arrow left icon"></i>
+                </a>
+                <a href="#" class="item">
+                    <i class="red arrow right icon"></i>
+                </a>
+            </div>
+
+        </div>
+    </body>
+</html>

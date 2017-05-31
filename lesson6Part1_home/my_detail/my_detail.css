@@ -1,0 +1,26 @@
+.ui.vertical.basic.inverted.segment{
+    height: 500px;
+    background: url('images/detail.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ui.basic.container.segment{
+    margin-top: 30px;
+    width: 700px;
+}
+
+.ui.basic.container.segment > h1{
+    font-family: 'Oswald' ,sans-serif;
+    font-size: 40px !important;
+}
+
+.ui.basic.container.segment > p{
+    margin-top: 30px;
+    font-family: 'Raleway' ,sans-serif;
+    font-size: 20px;
+}
+
+form {
+    margin-bottom: 200px;
+}
